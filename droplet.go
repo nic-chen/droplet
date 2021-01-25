@@ -1,6 +1,6 @@
 package droplet
 
-import "github.com/shiningrush/droplet/data"
+import "github.com/nic-chen/droplet/data"
 
 var (
 	Option = GlobalOpt{

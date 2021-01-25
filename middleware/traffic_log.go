@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"encoding/json"
-	"github.com/shiningrush/droplet"
-	"github.com/shiningrush/droplet/log"
+	"github.com/nic-chen/droplet"
+	"github.com/nic-chen/droplet/log"
 	"net/http"
 	"time"
 )
