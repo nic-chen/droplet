@@ -20,7 +20,7 @@ func Wraps(handler droplet.Handler, opts ...wrapper.SetWrapOpt) func(*gin.Contex
 		}
 
 		dCtx := droplet.NewContext()
-		dCtx.SetContext(ctx.Request.Context())
+		dCtx.SetContext(ctx)
 
 		ret, _ := droplet.NewPipe().
 			Add(middleware.NewHttpInfoInjectorMiddleware(middleware.HttpInfoInjectorOption{
