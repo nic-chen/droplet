@@ -1,4 +1,4 @@
-module github.com/shiningrush/droplet
+module github.com/nic-chen/droplet
 
 go 1.12
 
